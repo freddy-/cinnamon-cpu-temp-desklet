@@ -1,0 +1,7 @@
+{
+    "description": "Displays the current CPU temperature.",
+    "prevent-decorations": false,
+    "uuid": "temperature@freddy",
+    "name": "CPU Temperature",
+    "last-edited": 1571550246
+}
