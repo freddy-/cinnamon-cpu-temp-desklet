@@ -81,7 +81,7 @@ TheDesklet.prototype = {
 
     this.temperatures.forEach(
       Lang.bind(this, function(element, index) {
-        this.text1 = new St.Label();
+        this.text1 = new St.Label({ style_class: "text-label"});
         this.text1.set_text("Core " + (index + 1) + ":  " + element + "°C");
         this.window.add(this.text1);
       })

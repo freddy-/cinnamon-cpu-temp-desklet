@@ -3,6 +3,10 @@
   text-align: center;
   padding: 10px;
   background-color: transparent;
-  font-family: 'Sawasdee', sans-serif;
-  font-weight: bold;
+  font-family: 'Courier', monospace;
+  color: white;
+}
+
+.text-label {
+  margin-bottom: 5px;
 }
